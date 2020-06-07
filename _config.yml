@@ -1,0 +1,8 @@
+baseurl: /methrive_uxd.github-io---
+title: Hello, My Blog
+---
+
+{{ page.title }}
+
+
+
