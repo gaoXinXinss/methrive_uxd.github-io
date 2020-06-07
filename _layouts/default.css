@@ -1,0 +1,32 @@
+html, body, .root {
+  height: 100%;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.root .head {
+  height: 64px;
+  background: #eee;
+}
+
+.root .main-body {
+  flex: 1;
+  display: flex;
+}
+
+.main-body .sider, .main-body .content {
+  height: 100%;
+}
+
+.main-body .sider {
+  width: 170px;
+  background: #ddd;
+}
+
+.main-body .content {
+  background: #ccc;
+  flex: 1;
+}
